@@ -1,0 +1,58 @@
+.Main-content{
+    height: 65vh;
+    width: 85%;
+    background-color: rgb(226, 230, 243);
+    border-radius: 5px;
+    margin-top: 7%;
+    display:flex;
+    flex-direction: column;
+}
+
+.mainContentTopIndexVal{
+    font-size: 25px;
+    width: 98%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 1.5% 0 0 0;
+}
+
+.mainDisplayContent{
+    width: 50%;
+    height: 70%;
+    margin: 0 0 0 5%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mainContentName{
+    color: #282c34;
+    margin: 0 0 3% 0;
+    border-bottom: 2px solid;
+    border-bottom-color: #33a7d4;
+    height: 14%;
+}
+
+.mainSubContentBox{
+    color: #282c34;
+    margin: 2% 0 0 0;
+}
+
+.movieSubContentBox{
+    color: #282c34;
+    margin: 2% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.movieSubListBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #282c34;
+
+}
